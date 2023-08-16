@@ -20,6 +20,10 @@ pip install geokakao
 
 Here's a simple example of how to use the geokakao package:
 ```python
+import geokakao as gk
+import pandas as pd
+```
+```python
 # Load your DataFrame with address information
 data = {'Name': ['국립공원공단 본사',
                  '국립공원연구원 본원',
